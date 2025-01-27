@@ -8,13 +8,13 @@
 
 [![Share on Reddit](https://img.shields.io/badge/-Share%20on%20Reddit-orange)](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&title=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on X/Twitter](https://img.shields.io/badge/-Share%20on%20Twitter-blue)](https://twitter.com/intent/tweet?text=Check%20out%20Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis%20%23AI%20%23Research%0A%0Ahttps%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA) [![Share on LinkedIn](https://img.shields.io/badge/-Share%20on%20LinkedIn-blue)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&title=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Hacker News](https://img.shields.io/badge/-Share%20on%20Hacker%20News-orange)](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&t=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Pinterest](https://img.shields.io/badge/-Share%20on%20Pinterest-red)](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&description=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Facebook](https://img.shields.io/badge/-Share%20on%20Facebook-blue)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA) [![Share on Telegram](https://img.shields.io/badge/-Share%20on%20Telegram-blue)](https://telegram.me/share/url?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&text=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis)
 
-**What is Academic Metrics?**
-
 ```bash
 pip install academic-metrics
 ```
 
-*Academic Metrics* is an AI-powered toolkit for collecting, classifying, and analyzing academic publications.
+**What is Academic Metrics?**
+
+**Academic Metrics** is an AI-powered toolkit for collecting, classifying, and analyzing academic publications.
 
 The system can be used to:
 
@@ -72,8 +72,7 @@ The system can be used to:
 | 🔄 Processing Pipeline | • Async Processing<br>• Error Handling<br>• Rate Limiting<br>• Retry Logic | • Fast performance<br>• Reliable operation<br>• API compliance<br>• Robust processing |
 | 🎯 Research Metrics | • Citation Impact<br>• Author Collaboration<br>• Research Focus<br>• Publication Trends | • Research evaluation<br>• Collaboration insights<br>• Focus area tracking<br>• Trend analysis |
 | 🛠️ Developer Tools | • AIChainComposer Integration<br>• Modular Design<br>• Extensive Documentation<br>• CLI Interface | • Easy LLM integration<br>• Simple customization<br>• Quick learning<br>• Flexible usage |
-| 🔍 Search & Discovery | • Full-Text Search<br>• Author Lookup<br>• Category Filtering<br>• Theme Analysis | • Easy exploration<br>• Quick lookups<br>• Focused results<br>• Theme discovery |
-| 📱 Integration Ready | • Web API Support<br>• Example Site<br>• Data Export<br>• Custom Endpoints | • Easy deployment<br>• Quick visualization<br>• Data portability<br>• System integration |
+| 📱 Integration Ready | • Example Site<br>• Data Export<br>• Custom Endpoints | • Quick visualization<br>• Data portability<br>• System integration |
 | 🔐 Security & Control | • API Key Management<br>• Rate Control<br>• Error Logging<br>• Data Validation | • Secure operation<br>• Resource protection<br>• Better monitoring<br>• Data integrity |
 
 ## Documentation
@@ -103,7 +102,11 @@ To see a demo of the site, you can watch the below video:
 
 ## Installation and Setup Steps
 
-Hey all, Spencer here, we are pleased to announce as of January 1st, 2025, you can now install the *Academic Metrics* package via *pip* and easily run the entire system via a short script or command line interface. Below are instructions outlining step by step how to do it. The steps walkthrough each piece of the process starting with installing python and setting up your environment, if you do not need help with those type of steps or want to jump straight to the code, first see [1. Installation](#1-installation), then you can skip to [6. Using the package](#6-using-the-package).
+Hey all, Spencer here, we are pleased to announce as of January 1st, 2025, you can now install the *Academic Metrics* package via *pip* and easily run the entire system via a short script or command line interface.
+
+Below is a step by step walkthrough of each piece of the process starting with installing python and setting up your environment, this is to help you get started if you are a non-technical user.
+
+If you don't need help with starting steps such as python setup, mongodb setup, or virtual environment setup, or want to jump straight to the code, first see [1. Installation](#1-installation) (or just install it via `pip install academic-metrics`), then skip to [6. Using the package](#6-using-the-package).****
 
 </br>
 
