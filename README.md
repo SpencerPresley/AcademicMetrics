@@ -1,4 +1,4 @@
-![Header](https://raw.githubusercontent.com/SpencerPresley/AcademicMetrics/master/additional_information/images/am-header.png)
+![Header](./additional_information/images/am-header.png)
 
 ## Welcome to Academic Metrics
 
@@ -25,7 +25,7 @@ The system can be used to:
 >
 > **AIChainComposer** is a powerful tool to quickly, easily, and efficiently build out programmatic workflows with LLMs.
 >
-> **AIChainComposer** is now provided as a standalone package, and is available on [PyPI](https://pypi.org/project/ChainComposer/), allowing you to use the same tools that allowed for the development of Academic Metrics in your own projects.
+> **AIChainComposer** is now provided as a standalone package, and is available on [PyPI](pypi.org/project/ChainComposer/), allowing you to use the same tools that allowed for the development of Academic Metrics in your own projects.
 
 ## Table of Contents
 
@@ -89,7 +89,7 @@ We also built an example site with the data we collected so that you can get a s
 
 > [!TIP]
 > You can use our site source code for your own site!
-> To easily launch your own website using the data you collect and classify via *Academic Metrics* see [**Site Creation Guide**](https://github.com/SpencerPresley/AcademicMetrics/blob/master/additional_information/SiteCreationGuide.md)
+> To easily launch your own website using the data you collect and classify via *Academic Metrics* see [**Site Creation Guide**](./additional_information/SiteCreationGuide.md)
 
 To see a demo of the site, you can watch the below video:
 
@@ -109,11 +109,11 @@ Hey all, Spencer here, we are pleased to announce as of January 1st, 2025, you c
 
     While you should be able to use any version of Python >= 3.7, we recommend using Python 3.12 as that is the version we used to develop the system, and the one it's been tested on.
 
-    For a detailed Python installation guide, see our [Python Installation Guide](https://github.com/SpencerPresley/AcademicMetrics/blob/master/additional_information/_guides/_python_install.md).
+    For a detailed Python installation guide, see our [Python Installation Guide](./additional_information/_guides/_python_install.md).
 
 2. **Installing and setting up MongoDB:**
 
-    For a detailed MongoDB installation and setup guide, see our [MongoDB Installation Guide](https://github.com/SpencerPresley/AcademicMetrics/blob/master/additional_information/_guides/_mongodb_install.md).
+    For a detailed MongoDB installation and setup guide, see our [MongoDB Installation Guide](./additional_information/_guides/_mongodb_install.md).
 
     Once you have MongoDB installed and running, you can create a database to store your data in, if you haven't already.
 
@@ -174,7 +174,7 @@ pip install academic-metrics
 
 Now that you've created and entered your project directory, you can set up a virtual environment.
 
-For detailed instructions on setting up and using virtual environments, see our [Python Installation Guide - Virtual Environments Section](https://github.com/SpencerPresley/AcademicMetrics/blob/master/additional_information/_guides/_python_install.md#setting-up-virtual-environments).
+For detailed instructions on setting up and using virtual environments, see our [Python Installation Guide - Virtual Environments Section](./additional_information/_guides/_python_install.md#setting-up-virtual-environments).
 
 After setting up your virtual environment, return here to continue with the next steps.
 
@@ -353,7 +353,7 @@ On the other hand, if you plan on using the main system, or other tools within t
 
 While I recommend the second option unless you're planning on using the package's offerings in a more complex manner, the basic code to run the system for the first option is provided in full in [Option 1 (Short Script)](#option-1-short-script) section.
 
-To see some examples of more complex use cases with examples, you can check out the [Other Uses](https://github.com/SpencerPresley/AcademicMetrics/blob/master/additional_information/OtherUses.md) section.
+To see some examples of more complex use cases with examples, you can check out the [Other Uses](./additional_information/OtherUses.md) section.
 
 </br>
 
