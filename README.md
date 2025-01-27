@@ -1,13 +1,4 @@
-# Academic Metrics (Archive)
-
-## Migration Notice
-
-> [!IMPORTANT]
-> This projects main repository has moved.
->
-> You can find the new repository at [https://github.com/SpencerPresley/AcademicMetrics](https://github.com/SpencerPresley/AcademicMetrics)
->
-> The reason for the move is to clean up the repository of old files, while maintaining them for reference.
+# Academic Metrics
 
 ## Welcome to Academic Metrics
 
@@ -32,8 +23,7 @@ The system can be used to:
 
 ## Table of Contents
 
-- [Academic Metrics (Archive)](#academic-metrics-archive)
-  - [Migration Notice](#migration-notice)
+- [Academic Metrics](#academic-metrics)
   - [Welcome to Academic Metrics](#welcome-to-academic-metrics)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)

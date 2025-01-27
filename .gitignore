@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+**.egg-info/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -172,8 +173,22 @@ Miniconda3-latest-Linux-x86_64.sh
 .zshrc
 .DS_Store
 /apitoolchain
+
 **.log
 
 # Migration Script and requirements file
 migrate_repo.py
 migrate_requirements.txt
+# Additional ignores for new repository
+*.pyc
+.vscode/
+setup_environment.py
+src/other/
+src/tests/
+src/data/
+src/assets/
+am_deps.txt
+check_deps.py
+compare_deps.py
+CrossRefClassificationOrder.md
+deps.txt
