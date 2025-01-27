@@ -1,4 +1,4 @@
-![Header](./additional_information/assets/header.png)
+![Header](./additional_information/images/header.png)
 
 ## Welcome to Academic Metrics
 
@@ -52,7 +52,7 @@ The system can be used to:
 - [Wrapping Up](#wrapping-up)
 
 ## Features
-
+****
 | Category | Features | Benefits |
 |----------|----------|-----------|
 | 📊 Data Collection | • Crossref API Integration<br>• Smart Web Scraping<br>• Automated DOI Processing<br>• Multi-Source Data Fusion | • Comprehensive data gathering<br>• Enhanced data completeness<br>• Reliable source tracking<br>• Efficient data collection |
