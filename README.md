@@ -10,6 +10,10 @@
 
 **What is Academic Metrics?**
 
+```bash
+pip install academic-metrics
+```
+
 *Academic Metrics* is an AI-powered toolkit for collecting, classifying, and analyzing academic publications.
 
 The system can be used to:
