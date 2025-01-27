@@ -2,6 +2,10 @@
 
 ## Welcome to Academic Metrics
 
+[![PyPi](https://img.shields.io/pypi/v/academic-metrics)](https://pypi.org/project/academic-metrics/) [![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://academicmetrics.readthedocs.io/en/latest/) [![Example Site](https://img.shields.io/badge/example-site-green)](https://ai-taxonomy-front.vercel.app/)
+
+[![Share on Reddit](https://img.shields.io/badge/-Share%20on%20Reddit-orange)](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&title=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Twitter](https://img.shields.io/badge/-Share%20on%20Twitter-blue)](https://twitter.com/intent/tweet?text=Check%20out%20Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis%20%23AI%20%23Research%0A%0Ahttps%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA) [![Share on LinkedIn](https://img.shields.io/badge/-Share%20on%20LinkedIn-blue)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&title=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Hacker News](https://img.shields.io/badge/-Share%20on%20Hacker%20News-orange)](https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&t=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Pinterest](https://img.shields.io/badge/-Share%20on%20Pinterest-red)](https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&description=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Facebook](https://img.shields.io/badge/-Share%20on%20Facebook-blue)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA) [![Share via Email](https://img.shields.io/badge/-Share%20via%20Email-lightgrey)](mailto:?subject=Check%20out%20Academic%20Metrics&body=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Telegram](https://img.shields.io/badge/-Share%20on%20Telegram-blue)](https://telegram.me/share/url?url=https%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA&text=Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis) [![Share on Mastodon](https://img.shields.io/badge/-Share%20on%20Mastodon-purple)](https://toot.kytta.dev/?text=Check%20out%20Academic%20Metrics%20-%20AI-powered%20academic%20publication%20analysis%0A%0Ahttps%3A%2F%2Fgithub.com%2FSpencerPresley%2FCOSC425-DATA)
+
 **What is Academic Metrics?**
 
 *Academic Metrics* is an AI-powered toolkit for collecting, classifying, and analyzing academic publications.
@@ -70,7 +74,7 @@ The system can be used to:
 
 To be able to see any and all implementation details regarding code logic, structure, prompts, and more you can check out our documentation. The documentation is built with [*Sphinx*](https://github.com/sphinx-doc/sphinx), allowing for easy use and a sense of famliarity.
 
-[**Academic Metrics Documentation**](https://cosc425-data.readthedocs.io/en/latest/)
+[**Academic Metrics Documentation**](https://academicmetrics.readthedocs.io/en/latest/)
 
 ## Example Site and Demo
 
@@ -747,11 +751,7 @@ python run_am.py \
 >
 > In addition we spent a lot of time testing prompts and models, our prompts have been tuned to a point where they elicit good results from `gpt-4o-mini`, thus a larger model may not be necessary to get the results you want.
 >
-> If you want to use a larger model like `gpt-4o` you can do so, but be warned it could end up running through your funds very quickly, depending on the size of the date range you're processing, and how many articles Crossref covers for the institution being processed.
->
-> If you are interested in using a larger model, I recommend you first start with a smaller model on a limited date range to see if you're satisfied with the results.
->
-> If you then decide to use a larger model such as `gpt-4o`, whether it be out of curiosity or you want to see if it provides better results, I still recommend you start with a smaller date range to get an idea of what it will cost. If you find the cost to be acceptable, then you can start expanding the date range.
+> If you want to use a larger model like `gpt-4o`, whether it be out of curiosity or you want to see if it provides better results, I still recommend you start with a smaller date range to get an idea of what it will cost. If you find the cost to be acceptable, then you can start expanding the date range.
 
 </br>
 
