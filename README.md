@@ -1,4 +1,4 @@
-![Header](./additional_information/images/header.png)
+![Header](./additional_information/images/am-header.png)
 
 ## Welcome to Academic Metrics
 
