@@ -1,4 +1,4 @@
-# Academic Metrics
+![Header](./additional_information/assets/header.png)
 
 ## Welcome to Academic Metrics
 
@@ -23,46 +23,48 @@ The system can be used to:
 
 ## Table of Contents
 
-- [Academic Metrics](#academic-metrics)
-  - [Welcome to Academic Metrics](#welcome-to-academic-metrics)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Documentation](#documentation)
-  - [Example Site and Demo](#example-site-and-demo)
-  - [Installation and Setup Steps](#installation-and-setup-steps)
-    - [0. External Setup](#0-external-setup)
-    - [1. Installation](#1-installation)
-    - [2. Creating the directory and necessary files](#2-creating-the-directory-and-necessary-files)
-    - [3. Virtual Environment (Optional but Recommended)](#3-virtual-environment-optional-but-recommended)
-    - [4. Environment Variables](#4-environment-variables)
-    - [5. Setting required environment variables](#5-setting-required-environment-variables)
-      - [1. Open the `.env` file you just created, and add the following variables](#1-open-the-env-file-you-just-created-and-add-the-following-variables)
-      - [2. Retrieve and set your MongoDB URI](#2-retrieve-and-set-your-mongodb-uri)
-      - [3. Set your database name](#3-set-your-database-name)
-      - [4. Set your OpenAI API Key](#4-set-your-openai-api-key)
-    - [6. Using the package](#6-using-the-package)
-      - [Option 1 (Short Script)](#option-1-short-script)
-        - [1. Create the python file](#1-create-the-python-file)
-        - [2. Copy paste the following code into the file you just created](#2-copy-paste-the-following-code-into-the-file-you-just-created)
-        - [3. Run the script](#3-run-the-script)
-      - [Option 2 (Command Line Interface)](#option-2-command-line-interface)
-        - [1. Create the python file](#1-create-the-python-file-1)
-        - [2. Copy and paste the following code into the file you just created](#2-copy-and-paste-the-following-code-into-the-file-you-just-created)
-        - [3. Run the script](#3-run-the-script-1)
-        - [Examples](#examples)
-  - [Wrapping Up](#wrapping-up)
+- [Welcome to Academic Metrics](#welcome-to-academic-metrics)
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Documentation](#documentation)
+- [Example Site and Demo](#example-site-and-demo)
+- [Installation and Setup Steps](#installation-and-setup-steps)
+  - [0. External Setup](#0-external-setup)
+  - [1. Installation](#1-installation)
+  - [2. Creating the directory and necessary files](#2-creating-the-directory-and-necessary-files)
+  - [3. Virtual Environment (Optional but Recommended)](#3-virtual-environment-optional-but-recommended)
+  - [4. Environment Variables](#4-environment-variables)
+  - [5. Setting required environment variables](#5-setting-required-environment-variables)
+    - [1. Open the `.env` file you just created, and add the following variables](#1-open-the-env-file-you-just-created-and-add-the-following-variables)
+    - [2. Retrieve and set your MongoDB URI](#2-retrieve-and-set-your-mongodb-uri)
+    - [3. Set your database name](#3-set-your-database-name)
+    - [4. Set your OpenAI API Key](#4-set-your-openai-api-key)
+  - [6. Using the package](#6-using-the-package)
+    - [Option 1 (Short Script)](#option-1-short-script)
+      - [1. Create the python file](#1-create-the-python-file)
+      - [2. Copy paste the following code into the file you just created](#2-copy-paste-the-following-code-into-the-file-you-just-created)
+      - [3. Run the script](#3-run-the-script)
+    - [Option 2 (Command Line Interface)](#option-2-command-line-interface)
+      - [1. Create the python file](#1-create-the-python-file-1)
+      - [2. Copy and paste the following code into the file you just created](#2-copy-and-paste-the-following-code-into-the-file-you-just-created)
+      - [3. Run the script](#3-run-the-script-1)
+      - [Examples](#examples)
+- [Wrapping Up](#wrapping-up)
 
 ## Features
 
-- **Data Collection**: Automated fetching of publications via Crossref API
-- **AI Classification**: LLM-powered analysis of research abstracts
-- **Multi-level Analytics**:
-  - Article-level metrics and classifications
-  - Author/faculty publication statistics
-  - Category-level aggregated data
-- **Flexible Storage**: MongoDB integration, local JSON output, and optionally Excel files
-- **Configurable Pipeline**: Customizable date ranges, models, and processing options
-- **And more!**: There are many useful tools within the academic metrics package that can be used for much more than just classification of academic research data, and they're all quite intuitive to use. See [Other Uses](./additional_information/OtherUses.md) for more information.
+| Category | Features | Benefits |
+|----------|----------|-----------|
+| 📊 Data Collection | • Crossref API Integration<br>• Smart Web Scraping<br>• Automated DOI Processing<br>• Multi-Source Data Fusion | • Comprehensive data gathering<br>• Enhanced data completeness<br>• Reliable source tracking<br>• Efficient data collection |
+| 🤖 AI Classification | • LLM-Powered Analysis<br>• NSF PhD Focus Areas<br>• Theme Extraction<br>• Methodology Detection | • Accurate categorization<br>• Standardized classifications<br>• Insightful themes<br>• Research trend analysis |
+| 📈 Analytics Engine | • Citation Tracking<br>• Author Statistics<br>• Department Analytics<br>• Category Analysis | • Impact measurement<br>• Performance tracking<br>• Department insights<br>• Research trends |
+| 💾 Data Management | • MongoDB Integration<br>• JSON Export<br>• Excel Reports<br>• Flexible Storage | • Scalable storage<br>• Easy data sharing<br>• Familiar formats<br>• Data accessibility |
+| 🔄 Processing Pipeline | • Async Processing<br>• Error Handling<br>• Rate Limiting<br>• Retry Logic | • Fast performance<br>• Reliable operation<br>• API compliance<br>• Robust processing |
+| 🎯 Research Metrics | • Citation Impact<br>• Author Collaboration<br>• Research Focus<br>• Publication Trends | • Research evaluation<br>• Collaboration insights<br>• Focus area tracking<br>• Trend analysis |
+| 🛠️ Developer Tools | • AIChainComposer Integration<br>• Modular Design<br>• Extensive Documentation<br>• CLI Interface | • Easy LLM integration<br>• Simple customization<br>• Quick learning<br>• Flexible usage |
+| 🔍 Search & Discovery | • Full-Text Search<br>• Author Lookup<br>• Category Filtering<br>• Theme Analysis | • Easy exploration<br>• Quick lookups<br>• Focused results<br>• Theme discovery |
+| 📱 Integration Ready | • Web API Support<br>• Example Site<br>• Data Export<br>• Custom Endpoints | • Easy deployment<br>• Quick visualization<br>• Data portability<br>• System integration |
+| 🔐 Security & Control | • API Key Management<br>• Rate Control<br>• Error Logging<br>• Data Validation | • Secure operation<br>• Resource protection<br>• Better monitoring<br>• Data integrity |
 
 ## Documentation
 
