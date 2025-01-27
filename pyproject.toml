@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "academic_metrics"
-version = "1.0.98"
+version = "1.0.99"
 description = "A tool to extract and format academic data from Web of Science and Crossref"
 authors = [
     { name = "Spencer Presley", email = "spencerpresley96@gmail.com" },
@@ -48,8 +48,8 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/SpencerPresley/COSC425-DATA"
-"Bug Tracker" = "https://github.com/SpencerPresley/COSC425-DATA/issues"
+"Homepage" = "https://github.com/SpencerPresley/AcademicMetrics"
+"Bug Tracker" = "https://github.com/SpencerPresley/AcademicMetrics/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
