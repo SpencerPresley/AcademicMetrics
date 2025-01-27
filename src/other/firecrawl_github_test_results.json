@@ -1,7 +1,0 @@
-{
-    "skill_level": "Intermediate",
-    "the_good_things": "The repository provides an AI-powered toolkit for analyzing and classifying academic research publications, supports multiple output formats (MongoDB, JSON, Excel), and offers detailed documentation and installation instructions.",
-    "could_be_better": "The repository could improve on its user interface for non-technical users and offer more examples of advanced use cases.",
-    "technologies_used": "Python, MongoDB, OpenAI API, Crossref API, Sphinx for documentation.",
-    "other_notes": "The project is actively maintained with frequent updates, and it is also available on PyPI for easy installation."
-}

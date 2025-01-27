@@ -1,5 +1,0 @@
-[2024-10-07 23:21:51] Starting file creation process for ./input_files/paper-doi-list.json
-[2024-10-07 23:21:51] Using crossref_file_splitter
-[2024-10-07 23:25:19] Starting file creation process for ./input_files/paper-doi-list.json
-[2024-10-07 23:25:19] Using crossref_file_splitter
-[2024-10-07 23:25:22] Crossref file splitter completed. Files created: 2935
